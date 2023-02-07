@@ -37,7 +37,7 @@ public class AssertJAssertAllGetterAction extends GenerateAllSetterBase {
 
             @Override
             public String formatLine(String line) {
-                return "assertThat(" + line.substring(0, line.length() - 1) + ").isEqualTo();";
+                return "assertEquals(\"\", " + line.substring(0, line.length() - 1) + ");";
             }
         });
     }

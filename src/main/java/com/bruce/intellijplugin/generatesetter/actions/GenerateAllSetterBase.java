@@ -78,25 +78,38 @@ public abstract class GenerateAllSetterBase extends PsiElementBaseIntentionActio
         {
             put("boolean", "false");
             put("java.lang.Boolean", "false");
+            put("Boolean", "false");
             put("int", "0");
             put("byte", "(byte)0");
             put("java.lang.Byte", "(byte)0");
+            put("Byte", "(byte)0");
             put("java.lang.Integer", "0");
+            put("Integer", "0");
             put("java.lang.String", "\"\"");
+            put("String", "\"\"");
             put("java.math.BigDecimal", "new BigDecimal(\"0\")");
+            put("BigDecimal", "new BigDecimal(\"0\")");
             put("java.lang.Long", "0L");
+            put("Long", "0L");
             put("long", "0L");
             put("short", "(short)0");
             put("java.lang.Short", "(short)0");
+            put("Short", "(short)0");
             put("java.util.Date", "new Date()");
+            put("Date", "new Date()");
             put("float", "0.0F");
             put("java.lang.Float", "0.0F");
+            put("Float", "0.0F");
             put("double", "0.0D");
             put("java.lang.Double", "0.0D");
+            put("Double", "0.0D");
             put("java.lang.Character", "\'\'");
+            put("Character", "\'\'");
             put("char", "\'\'");
             put("java.time.LocalDateTime", "LocalDateTime.now()");
+            put("LocalDateTime", "LocalDateTime.now()");
             put("java.time.LocalDate", "LocalDate.now()");
+            put("LocalDate", "LocalDate.now()");
 
         }
     };
